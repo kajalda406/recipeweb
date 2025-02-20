@@ -1,0 +1,490 @@
+[2025-02-20 15:59:40] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-02-20 15:59:40] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2025-02-20 15:59:40] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-02-20 15:59:40] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-02-20 15:59:40] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-02-20 15:59:40] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-02-20 15:59:40] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180\
+[2025-02-20 15:59:40] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/recipeweb/
+[2025-02-20 15:59:40] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-02-20 15:59:40] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-20 15:59:40] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-20 15:59:40] [class-ss-fetch-urls-task.php:66] Total pages: 1; Pages remaining: 1
+[2025-02-20 15:59:40] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/
+[2025-02-20 15:59:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2025-02-20 15:59:40] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 15:59:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b7516cc6978-R5yOT6.tmp
+[2025-02-20 15:59:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/?simply_static_page=1
+[2025-02-20 15:59:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/?simply_static_page=1
+[2025-02-20 15:59:41] [class-ss-url-fetcher.php:103] Filesize: 115079 bytes
+[2025-02-20 15:59:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-02-20 15:59:41] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-02-20 15:59:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b7516cc6978-R5yOT6.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/index.html
+[2025-02-20 15:59:41] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 15:59:46] [class-ss-fetch-urls-task.php:155] Adding 23 URLs to the queue
+[2025-02-20 15:59:46] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 15:59:48] [class-ss-page.php:119] Checking Content Identical:028127441abf7fb33056f4a9749c4cd500733bf5===. Value: FALSE
+[2025-02-20 15:59:48] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2025-02-20 15:59:48] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-20 15:59:48] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-20 15:59:48] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-20 15:59:48] [class-ss-fetch-urls-task.php:66] Total pages: 23; Pages remaining: 22
+[2025-02-20 15:59:48] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/login-form/
+[2025-02-20 15:59:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 23
+[2025-02-20 15:59:48] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 15:59:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b75174a1647-dSuvjL.tmp
+[2025-02-20 15:59:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/login-form/?simply_static_page=2
+[2025-02-20 15:59:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/login-form/?simply_static_page=2
+[2025-02-20 15:59:49] [class-ss-url-fetcher.php:103] Filesize: 109364 bytes
+[2025-02-20 15:59:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-02-20 15:59:49] [class-ss-url-fetcher.php:233] New filename for static page: /login-form/index.html
+[2025-02-20 15:59:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b75174a1647-dSuvjL.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/login-form/index.html
+[2025-02-20 15:59:49] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 15:59:56] [class-ss-fetch-urls-task.php:155] Adding 23 URLs to the queue
+[2025-02-20 15:59:56] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 15:59:59] [class-ss-page.php:119] Checking Content Identical:dc9e9531a9e8e2996893d7b98a019539ae265a8a===. Value: FALSE
+[2025-02-20 15:59:59] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/recipe-submit-form/
+[2025-02-20 15:59:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 23
+[2025-02-20 15:59:59] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 15:59:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b7517fc95d9-vQB4EJ.tmp
+[2025-02-20 15:59:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/recipe-submit-form/?simply_static_page=3
+[2025-02-20 15:59:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/recipe-submit-form/?simply_static_page=3
+[2025-02-20 16:00:00] [class-ss-url-fetcher.php:103] Filesize: 112191 bytes
+[2025-02-20 16:00:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-02-20 16:00:00] [class-ss-url-fetcher.php:233] New filename for static page: /recipe-submit-form/index.html
+[2025-02-20 16:00:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b7517fc95d9-vQB4EJ.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/recipe-submit-form/index.html
+[2025-02-20 16:00:00] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:00:12] [class-ss-fetch-urls-task.php:155] Adding 22 URLs to the queue
+[2025-02-20 16:00:12] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:00:16] [class-ss-page.php:119] Checking Content Identical:ada4fddf5dec30088cfbebc1c747d7dc12c3cbcb===. Value: FALSE
+[2025-02-20 16:00:16] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/registration-form/
+[2025-02-20 16:00:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 23
+[2025-02-20 16:00:16] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:00:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b75190af380-yqbzEH.tmp
+[2025-02-20 16:00:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/registration-form/?simply_static_page=4
+[2025-02-20 16:00:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/registration-form/?simply_static_page=4
+[2025-02-20 16:00:17] [class-ss-url-fetcher.php:103] Filesize: 108311 bytes
+[2025-02-20 16:00:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-02-20 16:00:17] [class-ss-url-fetcher.php:233] New filename for static page: /registration-form/index.html
+[2025-02-20 16:00:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b75190af380-yqbzEH.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/registration-form/index.html
+[2025-02-20 16:00:17] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:00:25] [class-ss-fetch-urls-task.php:155] Adding 22 URLs to the queue
+[2025-02-20 16:00:25] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:00:30] [class-ss-page.php:119] Checking Content Identical:d8be4e83fff1f4eb9db1b22ae645653af4bf56c0===. Value: FALSE
+[2025-02-20 16:00:30] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/category/uncategorized/
+[2025-02-20 16:00:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 23
+[2025-02-20 16:00:30] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:00:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b7519e3bd28-viyJgp.tmp
+[2025-02-20 16:00:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/category/uncategorized/?simply_static_page=5
+[2025-02-20 16:00:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/category/uncategorized/?simply_static_page=5
+[2025-02-20 16:00:31] [class-ss-url-fetcher.php:103] Filesize: 115649 bytes
+[2025-02-20 16:00:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-02-20 16:00:31] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/index.html
+[2025-02-20 16:00:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b7519e3bd28-viyJgp.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/category/uncategorized/index.html
+[2025-02-20 16:00:31] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:00:37] [class-ss-fetch-urls-task.php:155] Adding 25 URLs to the queue
+[2025-02-20 16:00:37] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:00:40] [class-ss-page.php:119] Checking Content Identical:9bdc940d071b5fc2b696dc036080641079be79a0===. Value: FALSE
+[2025-02-20 16:00:40] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/hello-world/
+[2025-02-20 16:00:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 23
+[2025-02-20 16:00:40] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:00:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751a88bc26-o5BRY6.tmp
+[2025-02-20 16:00:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/hello-world/?simply_static_page=6
+[2025-02-20 16:00:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/hello-world/?simply_static_page=6
+[2025-02-20 16:00:41] [class-ss-url-fetcher.php:103] Filesize: 123807 bytes
+[2025-02-20 16:00:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-02-20 16:00:41] [class-ss-url-fetcher.php:233] New filename for static page: /hello-world/index.html
+[2025-02-20 16:00:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751a88bc26-o5BRY6.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/hello-world/index.html
+[2025-02-20 16:00:41] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:00:49] [class-ss-fetch-urls-task.php:155] Adding 26 URLs to the queue
+[2025-02-20 16:00:49] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:00:52] [class-ss-page.php:119] Checking Content Identical:2e1d6a368ac5b429deeb5a57d4470b266644cd49===. Value: FALSE
+[2025-02-20 16:00:52] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/author/recipe_admin/
+[2025-02-20 16:00:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 23
+[2025-02-20 16:00:52] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:00:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751b440ebe-ehmofA.tmp
+[2025-02-20 16:00:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/author/recipe_admin/?simply_static_page=7
+[2025-02-20 16:00:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/author/recipe_admin/?simply_static_page=7
+[2025-02-20 16:00:52] [class-ss-url-fetcher.php:103] Filesize: 116644 bytes
+[2025-02-20 16:00:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-02-20 16:00:52] [class-ss-url-fetcher.php:233] New filename for static page: /author/recipe_admin/index.html
+[2025-02-20 16:00:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751b440ebe-ehmofA.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/author/recipe_admin/index.html
+[2025-02-20 16:00:52] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:00:59] [class-ss-fetch-urls-task.php:155] Adding 25 URLs to the queue
+[2025-02-20 16:00:59] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:02] [class-ss-page.php:119] Checking Content Identical:27db70471a46be692028a07f90ff982daacdb687===. Value: FALSE
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-includes/js/jquery/jquery.min.js
+[2025-02-20 16:01:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 23
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751be52864-xArNW9.tmp
+[2025-02-20 16:01:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/wp-includes/js/jquery/jquery.min.js?simply_static_page=8
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/wp-includes/js/jquery/jquery.min.js?simply_static_page=8
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751be52864-xArNW9.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/wp-includes/js/jquery/jquery.min.js
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:02] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-20 16:01:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 23
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751be762c9-WbjVVz.tmp
+[2025-02-20 16:01:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=9
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=9
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751be762c9-WbjVVz.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:02] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2025-02-20 16:01:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 23
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751be9546f-J5LwNf.tmp
+[2025-02-20 16:01:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=10
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=10
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:103] Filesize: 23862 bytes
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751be9546f-J5LwNf.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:02] [class-ss-page.php:119] Checking Content Identical:6c33d50e6a0f4aa76a01b91c37edba8882ec2a2c===. Value: FALSE
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-includes/js/thickbox/thickbox.js
+[2025-02-20 16:01:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 23
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751bea6c52-3AlvKz.tmp
+[2025-02-20 16:01:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/wp-includes/js/thickbox/thickbox.js?simply_static_page=11
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/wp-includes/js/thickbox/thickbox.js?simply_static_page=11
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:103] Filesize: 13332 bytes
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/thickbox/thickbox.js
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751bea6c52-3AlvKz.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/wp-includes/js/thickbox/thickbox.js
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:02] [class-ss-page.php:119] Checking Content Identical:58b0da786b625e2fc81ff0a67931a4f5e47c44a2===. Value: FALSE
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-content/plugins/super-socializer/js/front/combined.js
+[2025-02-20 16:01:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 23
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751bebff5f-2awPe1.tmp
+[2025-02-20 16:01:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/wp-content/plugins/super-socializer/js/front/combined.js?simply_static_page=12
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/wp-content/plugins/super-socializer/js/front/combined.js?simply_static_page=12
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:103] Filesize: 147052 bytes
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/super-socializer/js/front/combined.js
+[2025-02-20 16:01:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751bebff5f-2awPe1.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/wp-content/plugins/super-socializer/js/front/combined.js
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-02-20 16:01:02] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:03] [class-ss-page.php:119] Checking Content Identical:da03803bd74063249de912f2da4475a07d6dc02e===. Value: FALSE
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/feed/
+[2025-02-20 16:01:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 23
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/recipeweb/feed/
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/comments/feed/
+[2025-02-20 16:01:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 23
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/recipeweb/comments/feed/
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-content/themes/astra/assets/css/minified/main.min.css
+[2025-02-20 16:01:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 23
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751bf87506-ZVDyPg.tmp
+[2025-02-20 16:01:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=15
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=15
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:103] Filesize: 43154 bytes
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/css/minified/main.min.css
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751bf87506-ZVDyPg.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/wp-content/themes/astra/assets/css/minified/main.min.css
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:03] [class-ss-page.php:119] Checking Content Identical:486538a3d1eba64427d3d73811a11ca2e094991e===. Value: FALSE
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-includes/css/dist/block-library/style.min.css
+[2025-02-20 16:01:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 23
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751bf9b53a-iaQVFF.tmp
+[2025-02-20 16:01:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/wp-includes/css/dist/block-library/style.min.css?simply_static_page=16
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/wp-includes/css/dist/block-library/style.min.css?simply_static_page=16
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:103] Filesize: 114706 bytes
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751bf9b53a-iaQVFF.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/wp-includes/css/dist/block-library/style.min.css
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:03] [class-ss-page.php:119] Checking Content Identical:dc3b1a37381e079fda8db59c1a9469852cd18b80===. Value: FALSE
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-includes/css/dashicons.min.css
+[2025-02-20 16:01:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 23
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751bfb3b5b-xcDJM9.tmp
+[2025-02-20 16:01:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/wp-includes/css/dashicons.min.css?simply_static_page=17
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/wp-includes/css/dashicons.min.css?simply_static_page=17
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:103] Filesize: 59016 bytes
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dashicons.min.css
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751bfb3b5b-xcDJM9.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/wp-includes/css/dashicons.min.css
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:155] Adding 2 URLs to the queue
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:03] [class-ss-page.php:119] Checking Content Identical:ac6e2ca4e66c4b316459979b284391f2272406cc===. Value: FALSE
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-includes/js/thickbox/thickbox.css
+[2025-02-20 16:01:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 23
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751bfdae35-FMyj5B.tmp
+[2025-02-20 16:01:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/wp-includes/js/thickbox/thickbox.css?simply_static_page=18
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/wp-includes/js/thickbox/thickbox.css?simply_static_page=18
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:103] Filesize: 2659 bytes
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/thickbox/thickbox.css
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751bfdae35-FMyj5B.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/wp-includes/js/thickbox/thickbox.css
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:03] [class-ss-page.php:119] Checking Content Identical:3b273af579e5e5fa7c276c32028abd6df566a995===. Value: FALSE
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-content/plugins/super-socializer/css/front.css
+[2025-02-20 16:01:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 23
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751bfeac27-xDdIcK.tmp
+[2025-02-20 16:01:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/wp-content/plugins/super-socializer/css/front.css?simply_static_page=19
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/wp-content/plugins/super-socializer/css/front.css?simply_static_page=19
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:103] Filesize: 50554 bytes
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/super-socializer/css/front.css
+[2025-02-20 16:01:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751bfeac27-xDdIcK.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/wp-content/plugins/super-socializer/css/front.css
+[2025-02-20 16:01:03] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:155] Adding 2 URLs to the queue
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:04] [class-ss-page.php:119] Checking Content Identical:9f60761e1fa8608501354f62ba2d3b27bac354c4===. Value: FALSE
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-content/themes/astra-child/style.css
+[2025-02-20 16:01:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 23
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:01:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751c010a0e-Wn0Ab2.tmp
+[2025-02-20 16:01:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/wp-content/themes/astra-child/style.css?simply_static_page=20
+[2025-02-20 16:01:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/wp-content/themes/astra-child/style.css?simply_static_page=20
+[2025-02-20 16:01:04] [class-ss-url-fetcher.php:103] Filesize: 1171 bytes
+[2025-02-20 16:01:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-20 16:01:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra-child/style.css
+[2025-02-20 16:01:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751c010a0e-Wn0Ab2.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/wp-content/themes/astra-child/style.css
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:04] [class-ss-page.php:119] Checking Content Identical:37994b1bf854c2447cf05cf42cf413297f3d51c1===. Value: FALSE
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-content/themes/astra-child/assets/css/main.css
+[2025-02-20 16:01:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 23
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:01:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751c020820-I6qOtO.tmp
+[2025-02-20 16:01:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/wp-content/themes/astra-child/assets/css/main.css?simply_static_page=21
+[2025-02-20 16:01:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/wp-content/themes/astra-child/assets/css/main.css?simply_static_page=21
+[2025-02-20 16:01:04] [class-ss-url-fetcher.php:103] Filesize: 2536 bytes
+[2025-02-20 16:01:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-20 16:01:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra-child/assets/css/main.css
+[2025-02-20 16:01:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751c020820-I6qOtO.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/wp-content/themes/astra-child/assets/css/main.css
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:04] [class-ss-page.php:119] Checking Content Identical:3ce7f91ab3ecc490afc0981aa02cbf4e5e7b28ff===. Value: FALSE
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-json/
+[2025-02-20 16:01:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 23
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/recipeweb/wp-json/
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/xmlrpc.php
+[2025-02-20 16:01:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 23
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/recipeweb/xmlrpc.php
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-02-20 16:01:04] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 23 pages/files
+[2025-02-20 16:01:04] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-20 16:01:04] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-20 16:01:04] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:66] Total pages: 39; Pages remaining: 16
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-login.php
+[2025-02-20 16:01:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 39
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/recipeweb/wp-login.php
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-json/wp/v2/pages/9
+[2025-02-20 16:01:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 39
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/recipeweb/wp-json/wp/v2/pages/9
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-02-20 16:01:04] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-json/oembed/1.0/embed
+[2025-02-20 16:01:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 39
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/recipeweb/wp-json/oembed/1.0/embed
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-json/wp/v2/pages/11
+[2025-02-20 16:01:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 39
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/recipeweb/wp-json/wp/v2/pages/11
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-json/wp/v2/pages/6
+[2025-02-20 16:01:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 39
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/recipeweb/wp-json/wp/v2/pages/6
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/category/uncategorized/feed/
+[2025-02-20 16:01:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 39
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/recipeweb/category/uncategorized/feed/
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-json/wp/v2/categories/1
+[2025-02-20 16:01:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 39
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/recipeweb/wp-json/wp/v2/categories/1
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-includes/js/comment-reply.min.js
+[2025-02-20 16:01:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 39
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751c1178df-9zBNMM.tmp
+[2025-02-20 16:01:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/wp-includes/js/comment-reply.min.js?simply_static_page=31
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/wp-includes/js/comment-reply.min.js?simply_static_page=31
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:103] Filesize: 3026 bytes
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751c1178df-9zBNMM.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/wp-includes/js/comment-reply.min.js
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:05] [class-ss-page.php:119] Checking Content Identical:b95fcda0c8c26305ad94e80343d0cfca8a048a10===. Value: FALSE
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/hello-world/feed/
+[2025-02-20 16:01:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 39
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/recipeweb/hello-world/feed/
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-json/wp/v2/posts/1
+[2025-02-20 16:01:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 39
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/recipeweb/wp-json/wp/v2/posts/1
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/author/recipe_admin/feed/
+[2025-02-20 16:01:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 39
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/recipeweb/author/recipe_admin/feed/
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-json/wp/v2/users/1
+[2025-02-20 16:01:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 39
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://localhost/recipeweb/wp-json/wp/v2/users/1
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-includes/fonts/dashicons.eot
+[2025-02-20 16:01:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 39
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751c14792c-RioIUO.tmp
+[2025-02-20 16:01:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/wp-includes/fonts/dashicons.eot?simply_static_page=36
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/wp-includes/fonts/dashicons.eot?simply_static_page=36
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:103] Filesize: 56564 bytes
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/fonts/dashicons.eot
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751c14792c-RioIUO.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/wp-includes/fonts/dashicons.eot
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:05] [class-ss-page.php:119] Checking Content Identical:f90206d72a97c26bb9618d7d7e0d10ddfd652291===. Value: FALSE
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-includes/fonts/dashicons.ttf
+[2025-02-20 16:01:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 39
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751c159bc4-NVG3wH.tmp
+[2025-02-20 16:01:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/wp-includes/fonts/dashicons.ttf?simply_static_page=37
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/wp-includes/fonts/dashicons.ttf?simply_static_page=37
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:103] Filesize: 56392 bytes
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/fonts/dashicons.ttf
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751c159bc4-NVG3wH.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/wp-includes/fonts/dashicons.ttf
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:05] [class-ss-page.php:119] Checking Content Identical:540fe646c1727587dc8f9c94b676b5e4a2fceea7===. Value: FALSE
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-content/plugins/super-socializer/images/transparent_bg.png
+[2025-02-20 16:01:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 39
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751c16c1d7-w8txaf.tmp
+[2025-02-20 16:01:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/wp-content/plugins/super-socializer/images/transparent_bg.png?simply_static_page=38
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/wp-content/plugins/super-socializer/images/transparent_bg.png?simply_static_page=38
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:103] Filesize: 932 bytes
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/super-socializer/images/transparent_bg.png
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751c16c1d7-w8txaf.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/wp-content/plugins/super-socializer/images/transparent_bg.png
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:05] [class-ss-page.php:119] Checking Content Identical:07c90d610dacba0e6be54bfb653bd36cd0c72ce6===. Value: FALSE
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:69] URL: http://localhost/recipeweb/wp-content/plugins/super-socializer/images/login/login.png
+[2025-02-20 16:01:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 39
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\DELL\AppData\Local\Temp/67b751c178433-UMB37I.tmp
+[2025-02-20 16:01:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/recipeweb/wp-content/plugins/super-socializer/images/login/login.png?simply_static_page=39
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/recipeweb/wp-content/plugins/super-socializer/images/login/login.png?simply_static_page=39
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:103] Filesize: 6047 bytes
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/super-socializer/images/login/login.png
+[2025-02-20 16:01:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\DELL\AppData\Local\Temp/67b751c178433-UMB37I.tmp to C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180/wp-content/plugins/super-socializer/images/login/login.png
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-02-20 16:01:05] [class-ss-page.php:119] Checking Content Identical:7a0318f67c6479d9a1623b90ff9bc4806aadaabe===. Value: FALSE
+[2025-02-20 16:01:05] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 23 of 39 pages/files
+[2025-02-20 16:01:05] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-20 16:01:05] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-20 16:01:05] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-20 16:01:05] [class-ss-fetch-urls-task.php:66] Total pages: 39; Pages remaining: 0
+[2025-02-20 16:01:05] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 39 of 39 pages/files
+[2025-02-20 16:01:05] [class-ss-archive-creation-job.php:204] We've found our next task: transfer_files_locally
+[2025-02-20 16:01:05] [class-ss-archive-creation-job.php:234] Cleaning on first run for task: transfer_files_locally
+[2025-02-20 16:01:05] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2025-02-20 16:01:05] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2025-02-20 16:01:05] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /index.html
+[2025-02-20 16:01:05] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/
+[2025-02-20 16:01:05] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /login-form/index.html
+[2025-02-20 16:01:05] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/login-form
+[2025-02-20 16:01:05] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /recipe-submit-form/index.html
+[2025-02-20 16:01:05] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/recipe-submit-form
+[2025-02-20 16:01:05] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /registration-form/index.html
+[2025-02-20 16:01:05] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/registration-form
+[2025-02-20 16:01:05] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /category/uncategorized/index.html
+[2025-02-20 16:01:05] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/category/uncategorized
+[2025-02-20 16:01:05] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /hello-world/index.html
+[2025-02-20 16:01:11] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/hello-world
+[2025-02-20 16:01:11] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /author/recipe_admin/index.html
+[2025-02-20 16:01:11] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/author/recipe_admin
+[2025-02-20 16:01:11] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/jquery/jquery.min.js
+[2025-02-20 16:01:14] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/wp-includes/js/jquery
+[2025-02-20 16:01:14] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-20 16:01:14] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/wp-includes/js/jquery
+[2025-02-20 16:01:14] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2025-02-20 16:01:15] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/wp-content/themes/astra/assets/js/minified
+[2025-02-20 16:01:15] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/thickbox/thickbox.js
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/wp-includes/js/thickbox
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/super-socializer/js/front/combined.js
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/wp-content/plugins/super-socializer/js/front
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/astra/assets/css/minified/main.min.css
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/wp-content/themes/astra/assets/css/minified
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/css/dist/block-library/style.min.css
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/wp-includes/css/dist/block-library
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/css/dashicons.min.css
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/wp-includes/css
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/thickbox/thickbox.css
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/wp-includes/js/thickbox
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/super-socializer/css/front.css
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/wp-content/plugins/super-socializer/css
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/astra-child/style.css
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/wp-content/themes/astra-child
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/astra-child/assets/css/main.css
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/wp-content/themes/astra-child/assets/css
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/comment-reply.min.js
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/wp-includes/js
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/fonts/dashicons.eot
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/wp-includes/fonts
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/fonts/dashicons.ttf
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/wp-includes/fonts
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/super-socializer/images/transparent_bg.png
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/wp-content/plugins/super-socializer/images
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/super-socializer/images/login/login.png
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/recipeweb/wp-content/plugins/super-socializer/images/login
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:24. Processed Pages: 24
+[2025-02-20 16:01:16] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 24 of 24 files
+[2025-02-20 16:01:16] [trait-can-process-pages.php:114] Total pages: 24; Pages remaining: 0
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:197] Transferring 404 Page
+[2025-02-20 16:01:16] [class-ss-transfer-files-locally-task.php:200] No 404 Page found at C:\xampp\htdocs\recipeweb/wp-content/uploads\simply-static\temp-files/simply-static-1-1740067180\404\index.html
+[2025-02-20 16:01:16] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://kajalda406.github.io/recipeweb/" target="_blank">https://kajalda406.github.io/recipeweb/</a>
+[2025-02-20 16:01:16] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-02-20 16:01:16] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-02-20 16:01:16] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-02-20 16:01:16] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2025-02-20 16:01:16] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-02-20 16:01:16] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-02-20 16:01:16] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-02-20 16:01:16] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:01:36
